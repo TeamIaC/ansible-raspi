@@ -1,0 +1,16 @@
+# Nginx
+virtual_server_name: example.com
+virtual_root_path: "{{git_repo_dest}}/public"
+
+# DB
+db_name: laravel
+db_user: root
+db_password: root
+
+# Git
+git_repo_url: https://github.com/ymktmk/task-ball.git
+git_repo_dest: /var/www
+git_branch_name: main
+
+# Let's Encrypt
+ssl_email: test@test.com

@@ -1,0 +1,12 @@
+---
+apt:
+  all_update_flag: true
+  all_upgrade_flag: true
+  packages:
+    - name: vim
+    - name: apache2
+    - name: git
+    - name: php
+    - name: php-mysql
+    - name: mariadb-server
+    - name: composer

@@ -1,0 +1,8 @@
+---
+- hosts: raspberry-pi
+  # remote_user: ymktmk_tt
+  become: true
+  vars_files:
+    - ./vars/variables.yml
+  roles:
+    - apt
